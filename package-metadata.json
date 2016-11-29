@@ -1,0 +1,9 @@
+{
+    "dependencies": [],
+    "sublime_text": "*",
+    "platforms": ["*"],
+    "description": "Lines Options",
+	"author": "nourddine bakour",
+	"email": "nbtion@gmail.com",
+    "version": "1.0.2",
+}

@@ -1,0 +1,83 @@
+[
+	{
+		"caption": "Lines",
+		"children":
+		[
+		{
+			"caption": "Reverse Lines",
+			"command": "permute_lines",
+			"args": {"operation": "reverse"} 
+		},
+		{
+			"caption": "Shuffle Lines",
+			"command": "permute_lines",
+			"args": {"operation": "shuffle"}
+		},
+		{
+			"caption": "-"
+		},
+		{	
+			"caption": "Swap Line Up",
+			"command": "swap_line_up"
+		},
+		{
+			"caption": "Swap Line Down",
+			"command": "swap_line_down"
+		},
+		{
+			"caption": "-"
+		},
+		{
+			"caption": "Duplicate Line",
+			"command": "duplicate_line"
+		},
+		{
+			"caption": "Join Lines",
+			"command": "join_lines"
+		},
+		{
+			"caption": "-"
+		},
+		{	
+			"caption": "Delete Line",
+			"command": "run_macro_file",
+		 	"args": {"file": "res://Packages/Default/Delete Line.sublime-macro"}
+		},
+		{
+			"caption":"Delete blank lines",
+			"id":"delete-blank-lines-no_s",
+			"command": "delete_blank_lines",
+			"args": { "surplus": false }
+		},
+		{
+			"caption":"Delete Surplus blank lines",
+			"id":"delete-blank-lines_s",
+			"command": "delete_blank_lines",
+			"args": { "surplus": true },
+		},
+		{
+			"caption": "Delete Duplicate Lines",
+			"command": "permute_lines",
+			"args": {"operation": "unique"}
+		},
+		{
+			"caption": "-"
+		},
+		{
+			"caption": "Sort Lines",
+			"command": "sort_lines",
+			"args": {"case_sensitive": false}
+		},
+		{
+			"caption": "Sort Lines (Case Sensitive)",
+			"command": "sort_lines",
+			"args": {"case_sensitive": true}
+		},	
+		]
+	},
+		{
+		"caption": "-",
+		}
+		
+]
+
